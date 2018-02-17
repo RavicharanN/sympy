@@ -1314,7 +1314,7 @@ def GammaInverse(name, a, b):
     >>> cdf(X)(z)
     Piecewise((uppergamma(a, b/z)/gamma(a), z > 0), (0, True))
 
-    >>> isinstance(sample(X), float)  
+    >>> isinstance(sample(X), float)
     True
 
     References
